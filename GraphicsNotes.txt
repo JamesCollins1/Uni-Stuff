@@ -1,0 +1,28 @@
+Tutorial Website
+
+http://headerphile.com/sdl2/opengl-part-1-sdl-opengl-awesome/
+
+2 Files
+
+Main.h + Main.cpp
+
+Main.h
+
+#Include <SDL.h>
+
+Main.cpp
+
+#include "main.h"  Int main is necessary for the code to run
+
+argc = The number of arguments
+
+SDL_GetError - Gets the last error
+
+SDL_Quit(); Closes Memory 
+
+SDL_Event;  Structure that holds events that can happen to the window
+
+SDL_Quit = Registered if the red X has been pressed
+
+
+SDL_DestroyWindow(Window); Destroys the window
